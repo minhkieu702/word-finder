@@ -430,3 +430,7 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/firebase,unity,vs
+
+Word Finder/Library/PackageCache/com.unity.burst@1.8.13/.Runtime/libburst-llvm-16.dylib
+Word Finder/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_0_0.bundle
+Word Finder/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_0_0.so 
