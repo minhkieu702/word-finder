@@ -17,7 +17,10 @@ sysinfo.txt
 /[Mm]emoryCaptures/
 [Rr]ecordings/
 
-# Exclude specific Firebase files and folders
+# TextMeshPro specific ignore patterns
+!/[Aa]ssets/[Tt]ext[Mm]esh[Pp]ro/**
+
+# Firebase specific ignore patterns
 Assets/Firebase/
 Assets/Firebase.meta
 Assets/FirebaseAnalytics/
@@ -40,8 +43,6 @@ Assets/FirebaseStorage/
 Assets/FirebaseStorage.meta
 Assets/FirebaseApp/
 Assets/FirebaseApp.meta
-
-# Specific files for Firebase plugins
 Assets/Plugins/Firebase/
 Assets/Plugins/Firebase.meta
 Assets/Plugins/x86_64/FirebaseCppApp-12_0_0.bundle
