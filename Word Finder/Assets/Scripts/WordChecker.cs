@@ -46,7 +46,7 @@ public class WordChecker : MonoBehaviour
         currentGameData.selectedBoardData.ClearData();
         _assignedPoints = 0;
         _completedWords = 0;
-        AdManager.Instance.ShowBanner();
+        //AdManager.Instance.ShowBanner();
     }
 
     void Update()
@@ -109,7 +109,10 @@ public class WordChecker : MonoBehaviour
     {
         foreach (var searchingWord in currentGameData.selectedBoardData.SearchWords) 
         {
-            if(_word == searchingWord.Word && searchingWord.Found == false)
+            Debug.Log(_word);
+            Debug.Log(_word == searchingWord.Word);
+            Debug.Log(searchingWord.Word);
+            if (_word == searchingWord.Word.ToUpper() && searchingWord.Found == false)
             {
                 searchingWord.Found = true;
                 GameEvents.CorrectWordMethod(_word, _correctSquareList);
@@ -185,6 +188,7 @@ public class WordChecker : MonoBehaviour
 
     private void CheckBoardCompleted()
     {
+        
         bool loadNextCategory = false;
         if (currentGameData.selectedBoardData.SearchWords.Count == _completedWords)
         {
@@ -221,7 +225,7 @@ public class WordChecker : MonoBehaviour
             if(currentBoardIndex >= currentLevelSize)
             {
                 currentCategoryIndex++;
-                if (currentCategoryIndex <= gameLevelData.data.Count)
+                if (currentCategoryIndex < gameLevelData.data.Count)
                 {
                     categoryName = gameLevelData.data[currentCategoryIndex].categoryName;
                     currentBoardIndex = 0;

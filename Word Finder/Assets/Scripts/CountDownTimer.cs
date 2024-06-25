@@ -62,6 +62,7 @@ public class CountDownTimer : MonoBehaviour
             {
                 _stopTimer = true;
                 ActivateGameOverGUI();
+                DisplayRemainingTime();
             }
         }
     }
@@ -70,5 +71,13 @@ public class CountDownTimer : MonoBehaviour
     {
         GameEvents.GameOverMethod();
         _timeOut = true;
+    }
+
+    private void DisplayRemainingTime()
+    {
+        _minutes = Mathf.Floor(_timeLeft / 60);
+        _seconds = Mathf.RoundToInt(_timeLeft % 60);
+
+        var s = _minutes*60 + _seconds;
     }
 }

@@ -9,49 +9,52 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdb065698e0c62a46ac12d756bbf3456, type: 3}
+  m_Script: {fileID: 11500000, guid: b81ea0fb8f7f9ab4eae04104750df5ab, type: 3}
   m_Name: Countries1
   m_EditorClassIdentifier: 
-  timeInSeconds: 0
+  timeInSeconds: 60
   Columns: 5
   Rows: 5
   Board:
   - Size: 5
     Row:
-    - U
-    - S
+    - L
     - A
-    - I
+    - C
     - S
+    - D
   - Size: 5
     Row:
-    - M
     - S
-    - C
-    - N
     - P
+    - A
+    - I
+    - N
   - Size: 5
     Row:
     - J
     - U
-    - A
-    - D
-    - A
-  - Size: 5
-    Row:
-    - H
     - S
-    - G
-    - I
-    - I
+    - A
+    - F
   - Size: 5
     Row:
-    - K
-    - U
-    - W
-    - A
+    - I
     - N
+    - D
+    - I
+    - A
+  - Size: 5
+    Row:
+    - O
+    - K
+    - B
+    - X
+    - B
   SearchWords:
-  - Word: SPAIN
-  - Word: INDIA
-  - Word: USA
+  - Found: 0
+    Word: SPAIN
+  - Found: 0
+    Word: INDIA
+  - Found: 0
+    Word: USA

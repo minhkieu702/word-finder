@@ -9,136 +9,141 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdb065698e0c62a46ac12d756bbf3456, type: 3}
+  m_Script: {fileID: 11500000, guid: b81ea0fb8f7f9ab4eae04104750df5ab, type: 3}
   m_Name: Work1
   m_EditorClassIdentifier: 
-  timeInSeconds: 0
+  timeInSeconds: 180
   Columns: 10
   Rows: 10
   Board:
   - Size: 10
     Row:
-    - M
-    - Y
-    - R
-    - Q
-    - K
-    - W
+    - S
+    - F
     - U
-    - N
-    - Q
-    - K
-  - Size: 10
-    Row:
     - X
-    - S
-    - J
-    - G
-    - F
-    - O
     - N
     - C
+    - F
     - T
-    - Z
-  - Size: 10
-    Row:
-    - F
-    - A
-    - R
-    - M
-    - E
-    - R
-    - U
-    - F
-    - U
-    - V
-  - Size: 10
-    Row:
-    - B
-    - L
-    - C
-    - D
-    - E
-    - K
-    - H
-    - J
     - A
     - W
   - Size: 10
     Row:
-    - T
-    - E
     - A
-    - C
-    - H
-    - E
-    - R
-    - B
-    - Y
-    - T
-  - Size: 10
-    Row:
-    - O
-    - R
     - A
-    - G
-    - K
-    - R
-    - N
-    - R
-    - P
-    - O
-  - Size: 10
-    Row:
-    - V
-    - S
-    - D
-    - B
-    - E
-    - T
-    - B
-    - U
-    - C
-    - D
-  - Size: 10
-    Row:
-    - L
-    - Y
-    - L
-    - N
-    - A
-    - K
-    - J
-    - I
-    - H
-    - C
-  - Size: 10
-    Row:
-    - M
-    - H
+    - X
     - Z
-    - Y
-    - J
+    - X
     - H
-    - C
-    - U
-    - A
-    - D
-  - Size: 10
-    Row:
-    - P
-    - G
-    - D
-    - K
     - A
     - E
+    - H
+    - E
+  - Size: 10
+    Row:
+    - K
+    - Z
+    - L
+    - O
+    - R
+    - E
+    - R
+    - A
+    - X
+    - K
+  - Size: 10
+    Row:
+    - W
+    - Q
+    - K
+    - E
+    - M
+    - C
+    - M
+    - C
+    - E
+    - W
+  - Size: 10
+    Row:
+    - O
+    - C
+    - F
+    - A
+    - R
+    - A
+    - E
+    - H
+    - J
+    - Z
+  - Size: 10
+    Row:
+    - R
+    - E
+    - F
+    - Z
+    - N
+    - S
+    - R
+    - E
+    - A
+    - S
+  - Size: 10
+    Row:
+    - K
+    - O
+    - C
+    - K
+    - B
+    - F
+    - X
+    - R
+    - E
+    - B
+  - Size: 10
+    Row:
+    - E
+    - O
+    - A
+    - C
+    - B
+    - I
+    - T
+    - B
     - G
+    - J
+  - Size: 10
+    Row:
+    - R
+    - H
+    - G
+    - X
     - I
     - Y
+    - B
+    - B
+    - O
+    - S
+  - Size: 10
+    Row:
+    - Q
     - V
+    - J
+    - Y
+    - Y
+    - B
+    - D
+    - Z
+    - R
+    - Q
   SearchWords:
-  - Word: SALERS
-  - Word: FARMER
-  - Word: WORKER
-  - Word: CEO
-  - Word: TEACHER
+  - Found: 0
+    Word: SALERS
+  - Found: 0
+    Word: FARMER
+  - Found: 0
+    Word: WORKER
+  - Found: 0
+    Word: CEO
+  - Found: 0
+    Word: TEACHER

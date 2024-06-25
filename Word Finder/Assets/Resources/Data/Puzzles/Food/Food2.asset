@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdb065698e0c62a46ac12d756bbf3456, type: 3}
+  m_Script: {fileID: 11500000, guid: b81ea0fb8f7f9ab4eae04104750df5ab, type: 3}
   m_Name: Food2
   m_EditorClassIdentifier: 
-  timeInSeconds: 150
+  timeInSeconds: 100
   Columns: 5
   Rows: 5
   Board:
@@ -25,33 +25,36 @@ MonoBehaviour:
     - G
   - Size: 5
     Row:
-    - C
+    - J
     - P
-    - K
-    - E
+    - X
+    - H
     - R
   - Size: 5
     Row:
-    - L
+    - X
     - P
-    - Q
-    - N
+    - E
+    - A
     - A
   - Size: 5
     Row:
+    - X
+    - L
     - T
-    - L
-    - E
-    - A
+    - G
     - P
   - Size: 5
     Row:
-    - K
+    - I
     - E
-    - S
-    - W
+    - R
+    - U
     - E
   SearchWords:
-  - Word: CAKE
-  - Word: APPLE
-  - Word: GRAPE
+  - Found: 0
+    Word: CAKE
+  - Found: 0
+    Word: APPLE
+  - Found: 0
+    Word: GRAPE

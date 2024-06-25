@@ -51,20 +51,19 @@ public class HighScoreTable : MonoBehaviour
        
 
         highScoreEntryTransformList = new List<Transform>();
-        //ScoreboardData scoreboardData = new ScoreboardData();
-        //var datas = scoreboardData.LoadUsersScoreBoard().Result;
-        //foreach (var data in datas)
-        //{
-        //    HighScoreEntry entry = new HighScoreEntry();
-        //    entry.name = data.Username;
-        //    entry.score = data.CategoryScore["category1"].ScoreOfCategory;
-        //    CreateHighScoreEntryTransform(entry, entryContainer, highScoreEntryTransformList);
-        //}
-
-        foreach (HighScoreEntry highScoreEntry in highScoreEntryList.OrderByDescending(x => x.score))
+        var datas = AuthManager._scoreboard.OrderByDescending(x => x.Score);
+        foreach (var data in datas)
         {
-            CreateHighScoreEntryTransform(highScoreEntry, entryContainer, highScoreEntryTransformList);
+            HighScoreEntry entry = new HighScoreEntry();
+            entry.name = data.Username;
+            entry.score = data.Score;
+            CreateHighScoreEntryTransform(entry, entryContainer, highScoreEntryTransformList);
         }
+
+        //foreach (HighScoreEntry highScoreEntry in highScoreEntryList.OrderByDescending(x => x.score))
+        //{
+        //    CreateHighScoreEntryTransform(highScoreEntry, entryContainer, highScoreEntryTransformList);
+        //}
     }
     private void CreateHighScoreEntryTransform(HighScoreEntry highScoreEntry, Transform container, List<Transform> transformList)
     {

@@ -7,6 +7,7 @@ public class GameUtility : MonoBehaviour
 {
     public void LoadScene(string sceneName)
     {
+        
         SceneManager.LoadScene(sceneName);
     }
 
@@ -17,7 +18,7 @@ public class GameUtility : MonoBehaviour
 
     public void HideBannerAds()
     {
-        AdManager.Instance.HideBanner();
+        //AdManager.Instance.HideBanner();
     }
 
     public void MuteToggleBackgroundMusic()

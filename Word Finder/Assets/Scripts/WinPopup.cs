@@ -13,14 +13,14 @@ public class WinPopup : MonoBehaviour
     private void OnDisable()
     {
         GameEvents.OnBoardCompleted -= ShowInPopup;
-        AdManager.OnInterstitialAdsClosed -= IntersititalAdCompleted;
+        //AdManager.OnInterstitialAdsClosed -= IntersititalAdCompleted;
 
     }
 
     private void OnEnable()
     {
         GameEvents.OnBoardCompleted += ShowInPopup;
-        AdManager.OnInterstitialAdsClosed += IntersititalAdCompleted;
+       // AdManager.OnInterstitialAdsClosed += IntersititalAdCompleted;
     }
 
     private void IntersititalAdCompleted()
@@ -30,13 +30,13 @@ public class WinPopup : MonoBehaviour
 
     private void ShowInPopup()
     {
-        AdManager.Instance.HideBanner();
+        //AdManager.Instance.HideBanner();
         winPopup.SetActive(true);
     }
 
     public void LoadNextLevel()
     {
-        AdManager.Instance.ShowInterstitialAd();
+        //AdManager.Instance.ShowInterstitialAd();
         GameEvents.LoadNextLevelMethod();
     }
 

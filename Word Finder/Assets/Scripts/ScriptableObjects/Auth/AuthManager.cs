@@ -8,6 +8,8 @@ using UnityEngine;
 using Firebase.Database;
 using System.Linq;
 using System;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class AuthManager : MonoBehaviour
 {
@@ -36,10 +38,15 @@ public class AuthManager : MonoBehaviour
     public UserObject _user;
 
     [Header("Scoreboard")]
-    public List<UserObject> _scoreboard;
+    public static  List<UserObject> _scoreboard;
 
     [Header("GameData")]
-    public Dictionary<string, List<LevelObject>> _gameData = new();
+    public static Dictionary<string, List<LevelObject>> _gameData = new();
+
+    public GameObject canvasToActivate;
+    public GameObject LoginScreen;
+    public static int count = 0;
+    public static string welcomeName = "";
 
     async void Awake()
     {
@@ -58,7 +65,34 @@ public class AuthManager : MonoBehaviour
             }
         });
     }
+    private void Start()
+    {
+        checkActive();
+    }
 
+    private void checkActive()
+    {
+        if(count > 0)
+        {
+        canvasToActivate.SetActive(true);
+        LoginScreen.SetActive(false);
+        }
+        count++;
+        if (canvasToActivate != null && _user != null)
+        {
+            Text usernameText = canvasToActivate.transform.Find("UsernameText").GetComponent<Text>();
+            if (usernameText != null)
+            {
+                welcomeName = $"Welcome {_user.Username}";
+                usernameText.text = welcomeName;
+            }
+        }
+        if(canvasToActivate != null && _user == null)
+        {
+            Text usernameText = canvasToActivate.transform.Find("UsernameText").GetComponent<Text>();
+            usernameText.text = welcomeName;
+        }
+    }
     private void InitializeFirebase()
     {
         Debug.Log("Setting up Firebase Auth");
@@ -157,6 +191,16 @@ public class AuthManager : MonoBehaviour
             _gameData = await LoadGameData();
             _scoreboard = await LoadScoreBoard();
             _user = LoadUserData(_scoreboard);
+
+            if(canvasToActivate != null) { 
+            Text usernameText = canvasToActivate.transform.Find("UsernameText").GetComponent<Text>();
+                if(usernameText != null) {
+                     welcomeName = $"Welcome {_user.Username}";
+                    usernameText.text = welcomeName;
+                }
+            }
+            canvasToActivate.SetActive(true);
+
         }
         catch (FirebaseException firebaseEx)
         {

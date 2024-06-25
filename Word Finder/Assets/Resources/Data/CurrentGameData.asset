@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3649e6ee36193142b13e6326b4b90d9, type: 3}
+  m_Script: {fileID: 11500000, guid: 1ebf847059ec07248b9629ce061583c0, type: 3}
   m_Name: CurrentGameData
   m_EditorClassIdentifier: 
   selectedCategoryName: 
-  selectedBoardData: {fileID: 11400000, guid: 956987cc3ed6ee24b805ca309b2a3786, type: 2}
+  selectedBoardData: {fileID: 0}

@@ -6,10 +6,9 @@ using UnityEngine.UI;
 public class GameOverPopup : MonoBehaviour
 {
     public GameObject gameOverPopup;
-    public GameObject continueGameAfterAdsButton;
     void Start()
     {
-        continueGameAfterAdsButton.GetComponent<Button>().interactable = false;
+        //continueGameAfterAdsButton.GetComponent<Button>().interactable = false;
         gameOverPopup.SetActive(false);
 
         GameEvents.OnGameOver += ShowGameOverPopup;
@@ -22,9 +21,9 @@ public class GameOverPopup : MonoBehaviour
 
     private void ShowGameOverPopup()
     {
-        AdManager.Instance.HideBanner();
+        //AdManager.Instance.HideBanner();
         gameOverPopup.SetActive(true);
-        continueGameAfterAdsButton.GetComponent<Button>().interactable = false;
+        //continueGameAfterAdsButton.GetComponent<Button>().interactable = false;
     }
     // Update is called once per frame
     void Update()
