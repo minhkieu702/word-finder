@@ -1,30 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\",
+  "WorkspaceRootPath": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|d:\\now_semester\\pru212\\word-finder\\word finder\\assets\\scripts\\scriptableobjects\\auth\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\auth\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|d:\\now_semester\\pru212\\word-finder\\word finder\\assets\\scripts\\wordchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\wordchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wordchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|D:\\now_semester\\PRU212\\word-finder\\Word Finder\\assets\\scripts\\countdowntimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\countdowntimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|c:\\users\\kiett\\documents\\github\\word-finder\\word finder\\assets\\scripts\\winpopuptest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\winpopuptest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|D:\\now_semester\\PRU212\\word-finder\\Word Finder\\assets\\scripts\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\winpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\winpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|D:\\now_semester\\PRU212\\word-finder\\Word Finder\\assets\\scripts\\scriptableobjects\\objectingame\\categoryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\objectingame\\categoryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|c:\\users\\kiett\\documents\\github\\word-finder\\word finder\\assets\\scripts\\unlocklevelpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unlocklevelpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|D:\\now_semester\\PRU212\\word-finder\\Word Finder\\assets\\scripts\\gridsquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\datasaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datasaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\gameevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\gamedataselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamedataselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\gameutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\puzzlesavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzlesavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\boarddataeditorui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boarddataeditorui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\findpuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\findpuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\searchingwordslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\searchingwordslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\scriptableobjects\\boarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\boarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\gridsquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gridsquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\admanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\admanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\gridcell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gridcell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\gameoverpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameoverpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\wordsgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wordsgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\assets\\scripts\\scriptableobjects\\logindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\logindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,90 +86,257 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GridSquare.cs",
-              "DocumentMoniker": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\GridSquare.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GridSquare.cs",
-              "ToolTip": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\GridSquare.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GridSquare.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAIA9wIIAAABAAAAA",
+              "DocumentIndex": 3,
+              "Title": "UnlockLevelPopup.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\UnlockLevelPopup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UnlockLevelPopup.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\UnlockLevelPopup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UnlockLevelPopup.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T16:22:21.169Z"
+              "WhenOpened": "2024-06-27T21:29:14.525Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthManager.cs",
-              "DocumentMoniker": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\ScriptableObjects\\Auth\\AuthManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\Auth\\AuthManager.cs",
-              "ToolTip": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\ScriptableObjects\\Auth\\AuthManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\Auth\\AuthManager.cs",
-              "ViewState": "AQIAAAwBAAAAAAAAAAAEwEIBAAAFAAAA",
+              "DocumentIndex": 6,
+              "Title": "GameDataSelector.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\GameDataSelector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameDataSelector.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\GameDataSelector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameDataSelector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T16:08:52.847Z",
+              "WhenOpened": "2024-06-27T21:02:48.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameOverPopup.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\GameOverPopup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameOverPopup.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\GameOverPopup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameOverPopup.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA2wBgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T03:01:05.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdManager.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\AdManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AdManager.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\AdManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AdManager.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAApwCMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T02:55:25.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CountDownTimer.cs",
-              "DocumentMoniker": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\CountDownTimer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CountDownTimer.cs",
-              "ToolTip": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\CountDownTimer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CountDownTimer.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAA3wA4AAAASAAAA",
+              "Title": "WinPopup.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\WinPopup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WinPopup.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\WinPopup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WinPopup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T10:03:44.32Z"
+              "WhenOpened": "2024-06-25T02:53:36.292Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddCategory.cs",
-              "DocumentMoniker": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\AddCategory.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AddCategory.cs",
-              "ToolTip": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\AddCategory.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AddCategory.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAcwCQAAAArAAAA",
+              "DocumentIndex": 0,
+              "Title": "WordChecker.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\WordChecker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WordChecker.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\WordChecker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WordChecker.cs",
+              "ViewState": "AQIAAMoAAAAAAAAAAAAAAOQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T07:20:59.262Z"
+              "WhenOpened": "2024-06-25T02:53:23.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BoardDataEditorUI.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\BoardDataEditorUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BoardDataEditorUI.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\BoardDataEditorUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BoardDataEditorUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T10:46:47.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameUtility.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\GameUtility.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameUtility.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\GameUtility.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameUtility.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwBMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T03:01:10.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SearchingWordsList.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\SearchingWordsList.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SearchingWordsList.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\SearchingWordsList.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SearchingWordsList.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAMwIsAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T19:12:28.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WinPopupTest.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\WinPopupTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WinPopupTest.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\WinPopupTest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WinPopupTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T11:15:58.673Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CategoryObject.cs",
-              "DocumentMoniker": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\ScriptableObjects\\ObjectInGame\\CategoryObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\ObjectInGame\\CategoryObject.cs",
-              "ToolTip": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\ScriptableObjects\\ObjectInGame\\CategoryObject.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\ObjectInGame\\CategoryObject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Title": "DataSaver.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\DataSaver.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DataSaver.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\DataSaver.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DataSaver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T04:03:36.939Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+              "WhenOpened": "2024-06-27T10:31:10.344Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WordChecker.cs",
-              "DocumentMoniker": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\WordChecker.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\WordChecker.cs",
-              "ToolTip": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\WordChecker.cs",
-              "RelativeToolTip": "Assets\\Scripts\\WordChecker.cs",
-              "ViewState": "AQIAAL0AAAAAAAAAAAAIwMgAAAA1AAAA",
+              "DocumentIndex": 5,
+              "Title": "GameEvents.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\GameEvents.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameEvents.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\GameEvents.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameEvents.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T10:00:42.444Z",
+              "WhenOpened": "2024-06-27T10:12:39.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FindPuzzle.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\FindPuzzle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FindPuzzle.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\FindPuzzle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FindPuzzle.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwB0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T16:31:59.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PuzzleSaveManager.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\PuzzleSaveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PuzzleSaveManager.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\PuzzleSaveManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PuzzleSaveManager.cs",
+              "ViewState": "AQIAAKYAAACAYmZmZiYgwKkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T02:29:51.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GridSquare.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\GridSquare.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GridSquare.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\GridSquare.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GridSquare.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAjwHUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T10:05:53.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GridCell.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\GridCell.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GridCell.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\GridCell.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GridCell.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwB0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T03:07:46.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BoardData.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\ScriptableObjects\\BoardData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\BoardData.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\ScriptableObjects\\BoardData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\BoardData.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAcwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T11:36:41.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WordsGrid.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\WordsGrid.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WordsGrid.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\WordsGrid.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WordsGrid.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T11:15:57.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginData.cs",
+              "DocumentMoniker": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\ScriptableObjects\\LoginData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\LoginData.cs",
+              "ToolTip": "C:\\Users\\kiett\\Documents\\GitHub\\word-finder\\Word Finder\\Assets\\Scripts\\ScriptableObjects\\LoginData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\LoginData.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAcwIwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T00:32:23.385Z",
               "EditorCaption": ""
             }
           ]
