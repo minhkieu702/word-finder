@@ -193,6 +193,14 @@ public class WordChecker : MonoBehaviour
         bool loadNextCategory = false;
         if (currentGameData.selectedBoardData.SearchWords.Count == _completedWords)
         {
+            // Skip if in puzzle editor
+            if (currentGameData.selectedCategoryName == "Test")
+            {
+                Debug.Log("Win in TestPuzzle");
+                GameEvents.BoardCompletedMethod();
+                return;
+            }
+
             // Save current level progress
             var categoryName = currentGameData.selectedCategoryName;
             var currentBoardIndex = DataSaver.ReadCategoryCurrentIndexValues(categoryName);
