@@ -10,9 +10,11 @@ using System.Linq;
 using System;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Net.NetworkInformation;
 
 public class AuthManager : MonoBehaviour
 {
+    public static AuthManager Instance { get; private set; }
     //Firebase variables
     [Header("Firebase")]
     public DependencyStatus dependencyStatus;
@@ -69,7 +71,6 @@ public class AuthManager : MonoBehaviour
     {
         checkActive();
     }
-
     private void checkActive()
     {
         if(count > 0)
@@ -272,7 +273,10 @@ public class AuthManager : MonoBehaviour
         Task scoreTask = DBreference.Child("users").Child(User.UserId).Child(_gameData.Keys.First()).Child("1").Child("score").SetValueAsync(0);
         await Task.WhenAll(usernameTask, scoreTask);
     }
-
+    public async void SendScore(string cate, string level, string score)
+    {
+        await DBreference.Child("users").Child(User.UserId).Child(cate).Child(level).Child(score).SetValueAsync(score);
+    }
     public async Task<List<UserObject>> LoadScoreBoard()
     {
         try

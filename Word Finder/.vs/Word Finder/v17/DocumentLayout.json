@@ -1,7 +1,32 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\now_semester\\PRU212\\Word Finder-20240625T181207Z-001\\Word Finder\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|d:\\now_semester\\pru212\\word-finder\\word finder\\assets\\scripts\\scriptableobjects\\auth\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\auth\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|d:\\now_semester\\pru212\\word-finder\\word finder\\assets\\scripts\\wordchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wordchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|D:\\now_semester\\PRU212\\word-finder\\Word Finder\\assets\\scripts\\countdowntimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\countdowntimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|D:\\now_semester\\PRU212\\word-finder\\Word Finder\\assets\\scripts\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|D:\\now_semester\\PRU212\\word-finder\\Word Finder\\assets\\scripts\\scriptableobjects\\objectingame\\categoryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\objectingame\\categoryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|D:\\now_semester\\PRU212\\word-finder\\Word Finder\\assets\\scripts\\gridsquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gridsquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,91 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GridSquare.cs",
+              "DocumentMoniker": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\GridSquare.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GridSquare.cs",
+              "ToolTip": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\GridSquare.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GridSquare.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAIA9wIIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T16:22:21.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthManager.cs",
+              "DocumentMoniker": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\ScriptableObjects\\Auth\\AuthManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\Auth\\AuthManager.cs",
+              "ToolTip": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\ScriptableObjects\\Auth\\AuthManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\Auth\\AuthManager.cs",
+              "ViewState": "AQIAAAwBAAAAAAAAAAAEwEIBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T16:08:52.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CountDownTimer.cs",
+              "DocumentMoniker": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\CountDownTimer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CountDownTimer.cs",
+              "ToolTip": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\CountDownTimer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CountDownTimer.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAA3wA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T10:03:44.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddCategory.cs",
+              "DocumentMoniker": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\AddCategory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AddCategory.cs",
+              "ToolTip": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\AddCategory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AddCategory.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAcwCQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T07:20:59.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryObject.cs",
+              "DocumentMoniker": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\ScriptableObjects\\ObjectInGame\\CategoryObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\ObjectInGame\\CategoryObject.cs",
+              "ToolTip": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\ScriptableObjects\\ObjectInGame\\CategoryObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\ObjectInGame\\CategoryObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T04:03:36.939Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WordChecker.cs",
+              "DocumentMoniker": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\WordChecker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WordChecker.cs",
+              "ToolTip": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\WordChecker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WordChecker.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAIwMgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T10:00:42.444Z",
+              "EditorCaption": ""
             }
           ]
         }

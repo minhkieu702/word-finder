@@ -12,9 +12,13 @@ public class CountDownTimer : MonoBehaviour
     private float _timeLeft;
     private float _minutes;
     private float _seconds;
-    private float _oneSecondDown;
+    private static float _oneSecondDown;
     private bool _timeOut;
     private bool _stopTimer;
+    public static float GetTimeRemaining()
+    {
+        return _oneSecondDown;
+    }
     void Start()
     {
         _stopTimer = false;
@@ -42,28 +46,73 @@ public class CountDownTimer : MonoBehaviour
         if(_stopTimer == false)
         
             _timeLeft -= Time.deltaTime;
-        
+        else
+        {
+            DisplayRemainingTime();
+        }
         if(_timeLeft <= _oneSecondDown)
         {
             _oneSecondDown = _timeLeft - 1f;
         }
     }
+    //void OnGUI()
+    //{
+    //    if(_timeOut == false)
+    //    {
+    //        if(_timeLeft > 0) {
+    //            _minutes = Mathf.Floor(_timeLeft / 60);
+    //            _seconds = Mathf.RoundToInt(_timeLeft % 60);
+
+    //            timerText.text = _minutes.ToString("00") + ":" + _seconds.ToString("00");
+    //        } 
+    //        else
+    //        {
+    //            _stopTimer = true;
+    //            ActivateGameOverGUI();
+    //        }
+    //    }
+    //    else
+    //    {
+    //        if (_stopTimer)
+    //        {
+    //            DisplayRemainingTime();
+    //        }
+    //    }
+    //}
+
+    //private void ActivateGameOverGUI()
+    //{
+    //    GameEvents.GameOverMethod();
+    //    _timeOut = true;
+    //}
+
+    private void DisplayRemainingTime()
+    {
+        _minutes = Mathf.Floor(_timeLeft / 60);
+        _seconds = Mathf.RoundToInt(_timeLeft % 60);
+
+        var s = _minutes * 60 + _seconds;
+    }
     void OnGUI()
     {
-        if(_timeOut == false)
+        if (_timeOut == false)
         {
-            if(_timeLeft > 0) {
+            if (_timeLeft > 0)
+            {
                 _minutes = Mathf.Floor(_timeLeft / 60);
                 _seconds = Mathf.RoundToInt(_timeLeft % 60);
 
                 timerText.text = _minutes.ToString("00") + ":" + _seconds.ToString("00");
-            } 
+            }
             else
             {
                 _stopTimer = true;
                 ActivateGameOverGUI();
-                DisplayRemainingTime();
             }
+        }
+        else
+        {
+            Debug.Log(_oneSecondDown);
         }
     }
 
@@ -71,13 +120,5 @@ public class CountDownTimer : MonoBehaviour
     {
         GameEvents.GameOverMethod();
         _timeOut = true;
-    }
-
-    private void DisplayRemainingTime()
-    {
-        _minutes = Mathf.Floor(_timeLeft / 60);
-        _seconds = Mathf.RoundToInt(_timeLeft % 60);
-
-        var s = _minutes*60 + _seconds;
     }
 }

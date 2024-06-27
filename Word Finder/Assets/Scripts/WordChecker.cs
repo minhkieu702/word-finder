@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class WordChecker : MonoBehaviour
 {
-
+    [SerializeField]
+    public AuthManager AuthManager;
     public GameData currentGameData;
     public GameLevelData gameLevelData;
     private string _word;
-
     private int _assignedPoints = 0;
     private int _completedWords = 0;
     private Ray _rayUp, _rayDown;
@@ -43,6 +43,8 @@ public class WordChecker : MonoBehaviour
     }
     void Start()
     {
+        AuthManager = FindObjectOfType<AuthManager>();
+
         currentGameData.selectedBoardData.ClearData();
         _assignedPoints = 0;
         _completedWords = 0;
@@ -192,6 +194,17 @@ public class WordChecker : MonoBehaviour
         bool loadNextCategory = false;
         if (currentGameData.selectedBoardData.SearchWords.Count == _completedWords)
         {
+            //countDownTimer = GetComponent<CountDownTimer>();
+            var timeRemaining = CountDownTimer.GetTimeRemaining();
+            if (AuthManager == null)
+            {
+                AuthManager = FindObjectOfType<AuthManager>();
+            }
+            if (AuthManager != null)
+            {
+                AuthManager.SendScore("cate1", "1", timeRemaining.ToString());
+            }
+            Debug.Log(timeRemaining);
             // Save current level progress
             var categoryName = currentGameData.selectedCategoryName;
             var currentBoardIndex = DataSaver.ReadCategoryCurrentIndexValues(categoryName);
@@ -213,7 +226,7 @@ public class WordChecker : MonoBehaviour
                 }
 
             }
-
+            
             var currentLevelSize = gameLevelData.data[currentCategoryIndex].boardData.Count;
             if(currentBoardIndex < currentLevelSize)
             {
