@@ -52,6 +52,14 @@ public class AuthManager : MonoBehaviour
 
     async void Awake()
     {
+        if (Instance == null)
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
         //Check that all of the necessary dependencies for Firebase are present on the system
         await FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task =>
         {
@@ -275,7 +283,15 @@ public class AuthManager : MonoBehaviour
     }
     public async void SendScore(string cate, string level, string score)
     {
-        await DBreference.Child("users").Child(User.UserId).Child(cate).Child(level).Child(score).SetValueAsync(score);
+        try
+        {
+            Task sendScore = DBreference.Child("users").Child(User.UserId).Child(cate).Child(level).Child("score").SetValueAsync(score);
+            await Task.WhenAll(sendScore);
+        }
+        catch (FirebaseException ex)
+        {
+            Debug.Log(ex.Message);
+        }
     }
     public async Task<List<UserObject>> LoadScoreBoard()
     {

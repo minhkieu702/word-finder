@@ -6,8 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class WordChecker : MonoBehaviour
 {
-    [SerializeField]
-    public AuthManager AuthManager;
+    public AuthManager authManager;
     public GameData currentGameData;
     public GameLevelData gameLevelData;
     private string _word;
@@ -43,7 +42,7 @@ public class WordChecker : MonoBehaviour
     }
     void Start()
     {
-        AuthManager = FindObjectOfType<AuthManager>();
+        authManager = FindObjectOfType<AuthManager>();
 
         currentGameData.selectedBoardData.ClearData();
         _assignedPoints = 0;
@@ -194,17 +193,6 @@ public class WordChecker : MonoBehaviour
         bool loadNextCategory = false;
         if (currentGameData.selectedBoardData.SearchWords.Count == _completedWords)
         {
-            //countDownTimer = GetComponent<CountDownTimer>();
-            var timeRemaining = CountDownTimer.GetTimeRemaining();
-            if (AuthManager == null)
-            {
-                AuthManager = FindObjectOfType<AuthManager>();
-            }
-            if (AuthManager != null)
-            {
-                AuthManager.SendScore("cate1", "1", timeRemaining.ToString());
-            }
-            Debug.Log(timeRemaining);
             // Save current level progress
             var categoryName = currentGameData.selectedCategoryName;
             var currentBoardIndex = DataSaver.ReadCategoryCurrentIndexValues(categoryName);
@@ -232,6 +220,20 @@ public class WordChecker : MonoBehaviour
             {
                 currentBoardIndex += 1;
             }
+            var timeRemaining = CountDownTimer.GetTimeRemaining();
+            if (authManager == null)
+            {
+                authManager = FindObjectOfType<AuthManager>();
+            }
+            if (authManager != null)
+            {
+                authManager.SendScore(categoryName, currentBoardIndex.ToString(), timeRemaining.ToString());
+            }
+            else
+            {
+                Debug.LogError("AuthManager instance is still null.");
+            }
+            Debug.Log(timeRemaining);
             DataSaver.SaveCategoryData(categoryName, currentBoardIndex);
             
             // Unclock Next Category

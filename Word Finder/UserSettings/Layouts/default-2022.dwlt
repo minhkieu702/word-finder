@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 820.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -336,8 +336,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 319.49854}
-    m_SelectedIDs: 706a0000
-    m_LastClickedID: 27248
+    m_SelectedIDs: 32650000
+    m_LastClickedID: 25906
     m_ExpandedIDs: 00000000f8640000fa640000fc640000fe64000000650000026500000465000006650000086500000a6500000c650000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|d:\\now_semester\\pru212\\word-finder\\word finder\\assets\\scripts\\scriptableobjects\\auth\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\auth\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|d:\\now_semester\\pru212\\word-finder\\word finder\\assets\\scripts\\wordchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wordchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|d:\\now_semester\\pru212\\word-finder\\word finder\\assets\\scripts\\scriptableobjects\\auth\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\auth\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC563866-F537-4FDF-4A98-266E9A620E79}|Assembly-CSharp.csproj|D:\\now_semester\\PRU212\\word-finder\\Word Finder\\assets\\scripts\\countdowntimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,13 +54,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthManager.cs",
               "DocumentMoniker": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\ScriptableObjects\\Auth\\AuthManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\Auth\\AuthManager.cs",
               "ToolTip": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\ScriptableObjects\\Auth\\AuthManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\Auth\\AuthManager.cs",
-              "ViewState": "AQIAAAwBAAAAAAAAAAAEwEIBAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4BAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T16:08:52.847Z",
               "EditorCaption": ""
@@ -75,7 +75,8 @@
               "RelativeToolTip": "Assets\\Scripts\\CountDownTimer.cs",
               "ViewState": "AQIAACAAAAAAAAAAAAA3wA4AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T10:03:44.32Z"
+              "WhenOpened": "2024-06-26T10:03:44.32Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -109,13 +110,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "WordChecker.cs",
               "DocumentMoniker": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\WordChecker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WordChecker.cs",
               "ToolTip": "D:\\now_semester\\PRU212\\word-finder\\Word Finder\\Assets\\Scripts\\WordChecker.cs",
               "RelativeToolTip": "Assets\\Scripts\\WordChecker.cs",
-              "ViewState": "AQIAAL0AAAAAAAAAAAAIwMgAAAA1AAAA",
+              "ViewState": "AQIAANgAAAAAAAAAAAAcwAgAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T10:00:42.444Z",
               "EditorCaption": ""
